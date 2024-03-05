@@ -168,11 +168,3 @@ func countSum(cards []Card) int {
 	}
 	return sum
 }
-
-//func startRound(deck *[]Card) {
-//	player, casino := make([]Card, 0), make([]Card, 0)
-//	playerCash, casinoCash := 0, 0
-//	dealingCards(deck, &player, 2)
-//	playerCash = countSum(player)
-//
-//}
